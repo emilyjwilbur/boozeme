@@ -67,11 +67,11 @@ function drinkRecipeModal(drink) {
   let html = `
     <h2 class = "drink-title">${drink.strDrink}</h2>
     <p class = "drink-category">${drink.strCategory}</p>
-    <p class = "drink-ingredient">${drink.strIngredient1}</p>
-    <p class = "drink-ingredient">${drink.strIngredient2}</p>
-    <p class = "drink-ingredient">${drink.strIngredient3}</p>
-    <p class = "drink-ingredient">${drink.strIngredient4}</p>
-    <p class = "drink-ingredient">${drink.strIngredient5}</p>
+    <p class = "drink-ingredient"> ${drink.strMeasure1}${drink.strIngredient1}</p>
+    <p class = "drink-ingredient">${drink.strMeasure2}${drink.strIngredient2}</p>
+    <p class = "drink-ingredient">${drink.strMeasure3}${drink.strIngredient3}</p>
+    <p class = "drink-ingredient">${drink.strMeasure4}${drink.strIngredient4}</p>
+    <p class = "drink-ingredient">${drink.strMeasure5}${drink.strIngredient5}</p>
     <div class = "drink-instruct">
         <h3>Instructions:</h3>
         <p>${drink.strInstructions}</p>
