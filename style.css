@@ -2,6 +2,8 @@
 
 * {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -49,7 +51,11 @@ body {
     margin: 0;
 }
 
-/* book info */
+.container {
+    min-height: 100vh;
+}
+
+/*  */
 
 .drink-wrapper {
     max-width: 1280px;
@@ -62,9 +68,7 @@ body {
 .drink-search {
     margin: 2rem 0;
 }
-.drink-search cite {
-    font-size: 1rem;
-}
+
 
 .drink-search-box {
     margin: 1.2rem 0;
@@ -161,7 +165,7 @@ body {
     background-color: var(--tenne-tawny-dark);
 }
 
-/* book details */
+/* drinkdetails */
 
 .drink-details {
     position: fixed;
@@ -184,6 +188,10 @@ body {
 .drink-details::-webkit-scrollbar-thumb {
     background-color: #f0f0f0;
     border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 
 
@@ -197,9 +205,7 @@ body {
     margin: 2rem;
 }
 
-.recipe-details-content p:not(.drink-author) {
-    padding: 1rem 0;
-}
+
 
 
 
@@ -220,7 +226,7 @@ body {
     opacity: 0.9;
 }
 
-.recipe-title {
+.drink-title {
     letter-spacing: 1px;
     padding-bottom: 1rem;
 }
@@ -234,7 +240,7 @@ body {
     border-radius: 0.3rem;
 }
 
-.drink-summary {
+.recipe-instruct {
     padding: 1rem 0;
 }
 
@@ -261,7 +267,13 @@ body {
 }
 
 
-
+.notFound {
+    grid-template-columns: 1fr!important;
+    color: var(--tenne-tawny);
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+}
 
 
 
