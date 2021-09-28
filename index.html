@@ -21,43 +21,78 @@
       crossorigin=""
     ></script>
 
-    <title>Bookty</title>
+    <title>BoozeMe</title>
   </head>
   <body>
+    <div class="warning" role="alert">
+    Must be 21+
+      </div>
    
       <div class="container">
-          <div class="book-wrapper">
-              <div class="book-search">
-                  <h2 class="title">Search for a book</h2>
-                  <blockquote>There is no friend as loyal as a book <br>
-                    <cite>- Ernest Hemingway</cite>
-                </blockquote>
+          <div class="drink-wrapper">
+              <div class="drink-search">
+                  <h2 class="title">Search an ingredient and voila!  </h2>
+                  <img src="lemon.png" class="logo" alt="logo">
+                  <blockquote>Let the fun be - gin
+                  </blockquote>
 
-        <div class="book-search-box">
-            <input type="text" class="search-control" placeholder="Search for a book" id="search-input">
+        <div class="drink-search-box">
+            <input type="text" class="search-control" placeholder="Search an ingredient" id="search-input">
             <button type="submit" class="search-btn btn" id="search-btn">
                 <i class="fas fa-search"></i>
             </button>
         </div>
  </div>
 
-            <div class="book-result">
-                <h2 class="title">Your Search Results:</h2>
-                <div id="book">
+            <div class="drink-result">
+                <h2 class="title">Here's what we found.</h2>  
+                <h4 class="cheers">Cheers.</h4>
+                <div id="drink">
                     <!-- book item -->
-                    <div class="book-item">
+                    <!-- <div class="book-item">
                         <div class="book-img">
-                            <img src="logo.png" alt="book">
+                            <img src="book.jpg" alt="book">
                         </div>
                         <div class="book-name">
                             <h3>Book Name Here</h3>
                             <a href="#" class="info-btn">About this book</a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- end of book item -->
-
                 </div>
             </div>
+
+            <div class="drink-details">
+                    <!-- book info close button -->
+                    <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <!-- info content -->
+                    <div class="recipe-details-content">
+                        <!-- <h2 class="recipe-title">Recipe goes here</h2> -->
+                        <!-- <p class="book-author">Author name</p> -->
+                        <!-- <div class="drink-summary">
+                            <h3>Summary:</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error odio omnis ad fugit dolores magni quia, ex porro dicta pariatur iure perferendis officia iste fugiat enim magnam dignissimos! Quaerat, voluptatem!</p>
+                        </div>
+
+                        <div class="drink-info-img">
+                            <img src="book.jpg" alt="">
+                        </div>
+
+                            <div class="drink-link">
+                                <a href="#" target="_blank">Find this Drink</a>
+                            </div> -->
+
+
+
+                    </div>
+
+                </div>
+
+
+
                 </div>
                 </div>
 
@@ -65,16 +100,11 @@
 
                 
          
-     
-          
 
-       
-
-      <p class="copyright">&copy; Copyright by Emily Wilbur</p>
    
 
-    <div id="map"></div>
-
+ 
     <script src="script.js"></script>
   </body>
+  <p class="copyright">&copy; Copyright by emdev</p>
 </html>
