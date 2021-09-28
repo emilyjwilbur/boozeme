@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilyjwilbur/mapty.git"
+    "url": "git+https://github.com/emilyjwilbur/boozeme.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emilyjwilbur/mapty/issues"
+    "url": "https://github.com/emilyjwilbur/boozeme/issues"
   },
-  "homepage": "https://github.com/emilyjwilbur/mapty#readme",
+  "homepage": "https://github.com/emilyjwilbur/boozeme#readme",
   "dependencies": {
     "leaflet": "^1.7.1"
   }
